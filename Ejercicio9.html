@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let barrasquenosondeldia = (prompt("Ingrese cantidad de panes que no son del dia"));
+        let pan = 12500;
+        let valordeldescuento = 0.60 * pan;
+        let valorcondescuento = pan - valordeldescuento;
+        document.write("precio habitual del pan:", pan );
+        document.write("<br>");
+        document.write("valor del descuento: " ,valordeldescuento * barrasquenosondeldia);
+        document.write("<br>");
+        document.write("valor con descuento : " ,valorcondescuento);
+    </script>
+</body>
+</html>
